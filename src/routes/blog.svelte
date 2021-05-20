@@ -4,13 +4,13 @@
   </script>
   
   <svelte:head>
-      <title>About</title>
+      <title>Blog</title>
   </svelte:head>
   
   <Navbar />
 
   <main>
         <h1>
-            test
+            Blog content blvblrfrfkgjkrgjkrgßjkregß
         </h1>
   </main>
