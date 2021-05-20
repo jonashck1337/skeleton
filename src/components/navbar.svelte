@@ -18,7 +18,7 @@
 
 				<!-- primary nav-->
 				<div class="flex items-center space-x-1 text-gray-700">
-					<a href="#" class="py-5 px-3 font-semibold text-gray-700 hover:text-blue-500">Blog</a>
+					<a href="./routes/about.svelte" class="py-5 px-3 font-semibold text-gray-700 hover:text-blue-500">Blog</a>
 					<a href="#" class="py-5 px-3 font-semibold text-gray-700 hover:text-blue-500">About</a>
 				</div>
 			</div>
