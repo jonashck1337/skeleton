@@ -10,9 +10,9 @@
 <Navbar />
 
 <main>
-  <div class="py-12 text-center">
-  <p class="text-4xl font-sans-roboto"> 
-      Your assistant in for managing your well-being
+  <div class="py-16 text-center">
+  <p class="text-4xl py-4 font-sans-roboto"> 
+      Your assistant for managing your well-being
   </p> 
   </div>
 
