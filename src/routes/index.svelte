@@ -11,12 +11,9 @@
 
 <main>
   <div class="py-12 text-center">
-  <p class="text-2xl bg-blue-500"> 
-      Test for Website
+  <p class="text-4xl font-sans-roboto"> 
+      Your assistant in for managing your well-being
   </p> 
-  <p>Visit <a class="text-blue-600 underline" href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
-  <p class="bg-green-200 font-sans-roboto font-semibold">A bias neuron allows for more variations of weights to be stored. Biases add richer representation of the input space to the model’s weights. In the case of neural networks, a bias neuron is added to every layer. It plays a vital role by making it possible to move the activation function to the left or right on the graph.
-    </p> 
   </div>
 
   <div class="flex justify-between items-start px-8">
