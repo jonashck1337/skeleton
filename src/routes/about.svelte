@@ -19,7 +19,6 @@
     ],
         mapID: "map"
     };
-    import Linkedin1 from './linkedin.svelte';
 </script>
 
 <svelte:head>
@@ -38,10 +37,9 @@
 	<div class="flex items-center justify-center h-32">
         <h1 class= "text-2xl">Who are we?</h1>
     </div>
-    
-    <div>
-        <Linkedin1 />
-    </div>
+
+    <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lawrencesnow"><a class="LI-simple-link" href="https://www.linkedin.com/in/lawrencesnow?trk=profile-badge">Lawrence Snow</a></div>
+    <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="jonashecke"><a class="LI-simple-link" href="https://www.linkedin.com/in/jonashecke?trk=profile-badge">Jonas Hecke</a></div>
 
     <div class="flex items-center justify-center h-32">
         <h1 class= "text-2xl">Where to find us?</h1>
