@@ -24,5 +24,10 @@
     "tailwindcss": "^2.1.1",
     "@sveltejs/adapter-vercel": "1.0.0-next.17"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "@anoram/leaflet-svelte": "0.0.7-1",
+    "leaflet": "^1.7.1",
+    "ol": "^6.5.0"
+  }
 }
