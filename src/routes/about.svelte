@@ -1,5 +1,9 @@
 <script>
 	import Navbar from '../components/navbar.svelte';
+    import photo1 from '../components/photo1.jpg';
+    import photo2 from '../components/photo2.jpg';
+    import photo3 from '../components/photo3.jpg';
+    import photo4 from '../components/photo4.jpg';
     import Map from '@anoram/leaflet-svelte';
         let options={
             center: [48.83407644724074,2.3716775921220727],
@@ -35,11 +39,23 @@
 
 <main>
 	<div class="flex items-center justify-center h-32">
-        <h1 class= "text-2xl">Who are we?</h1>
+        <h1 class="text-2xl">Who are we?</h1>
     </div>
-
-    <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="lawrencesnow"><a class="LI-simple-link" href="https://www.linkedin.com/in/lawrencesnow?trk=profile-badge">Lawrence Snow</a></div>
-    <div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="vertical" data-theme="light" data-vanity="jonashecke"><a class="LI-simple-link" href="https://www.linkedin.com/in/jonashecke?trk=profile-badge">Jonas Hecke</a></div>
+    
+    <div class="flex justify-center space-x-12">
+            <a href="#">
+                <img class="h-48 w-48 rounded-full" src={photo1} alt="Jonas" />
+            </a>
+            <a href="#">
+                <img class="h-48 w-48 rounded-full" src={photo2} alt="Jonas" />
+            </a>
+            <a href="#">
+                <img class="h-48 w-48 rounded-full" src={photo3} alt="Jonas" />
+            </a>
+            <a href="#">
+                <img class="h-48 w-48 rounded-full" src={photo4} alt="Jonas" />
+            </a>
+    </div>
 
     <div class="flex items-center justify-center h-32">
         <h1 class= "text-2xl">Where to find us?</h1>
