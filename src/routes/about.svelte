@@ -43,7 +43,7 @@
 				<img class="h-48 w-48 rounded-full" src={photo3} alt="Antoine" />
 			</a>
             <a class="flex flex-col items-center py-3 font-semibold text-lg text-blue-500">Antoine Chauvin</a>
-            <a class="flex flex-col items-center py-1" href="https://www.linkedin.com/in/jonashecke/">
+            <a class="flex flex-col items-center py-1" href="https://www.linkedin.com/in/antoine-chauvin-38b86b154/">
 				<img class="h-5 w-5" src={linkedin} alt="linkedin_icon" />
 			</a>
 		</li>
@@ -52,7 +52,7 @@
 				<img class="h-48 w-48 rounded-full" src={photo4} alt="Inès" />
 			</a>
             <a class="flex flex-col items-center py-3 font-semibold text-lg text-blue-500">Inès Mebarki</a>
-            <a class="flex flex-col items-center py-1" href="https://www.linkedin.com/in/jonashecke/">
+            <a class="flex flex-col items-center py-1" href="https://www.linkedin.com/in/in%C3%A8s-mebarki/">
 				<img class="h-5 w-5" src={linkedin} alt="linkedin_icon" />
 			</a>
 		</li>
@@ -61,7 +61,7 @@
 				<img class="h-48 w-48 rounded-full" src={photo2} alt="Raghav" />
 			</a>
             <a class="flex flex-col items-center py-3 font-semibold text-lg text-blue-500">Raghav Bansal</a>
-            <a class="flex flex-col items-center py-1" href="https://www.linkedin.com/in/jonashecke/">
+            <a class="flex flex-col items-center py-1" href="https://www.linkedin.com/in/raghavbansal/">
 				<img class="h-5 w-5" src={linkedin} alt="linkedin_icon" />
 			</a>
 		</li>
@@ -90,8 +90,8 @@
 			  <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
 			</div>
 			<div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-			  <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
-			  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			  <h3 class="mb-3 font-bold text-gray-800 text-xl">2016</h3>
+			  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Healthpace was founded by the beatiful founding team.</p>
 			</div>
 		  </div>
 	  
@@ -102,8 +102,8 @@
 			  <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
 			</div>
 			<div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-			  <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
-			  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			  <h3 class="mb-3 font-bold text-white text-xl">2017</h3>
+			  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">The first 1000 patients were registered on the platform.</p>
 			</div>
 		  </div>
 		  
