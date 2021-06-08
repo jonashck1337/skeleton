@@ -11,6 +11,6 @@
 
   <main>
         <h1>
-            Login Form here and switch between patient login and doctor login?
+            Login Form
         </h1>
   </main>
