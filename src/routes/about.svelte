@@ -87,47 +87,43 @@
 		  <div class="mb-8 flex justify-between items-center w-full">
 			<div class="order-1 w-5/12"></div>
 			<div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-16 h-16 rounded-full">
-			  <h1 class="mx-auto font-semibold text-lg text-white">1</h1>
+			  <h1 class="mx-auto font-semibold text-lg text-white">2016</h1>
 			</div>
 			<div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-			  <h3 class="mb-3 font-bold text-gray-800 text-xl">2016</h3>
-			  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Healthpace was founded by the beatiful founding team.</p>
+			  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Healthpace was founded by four entrepreneurs with a diverse background in Paris, France. The team realized that the healthcare system needs to leverage the huge opportunities of digitalization and they wanted to realize their vision of offering better patient services.</p>
 			</div>
 		  </div>
 	  
 		  <!-- left timeline -->
 		  <div class="mb-8 flex justify-between flex-row-reverse items-center w-full">
 			<div class="order-1 w-5/12"></div>
-			<div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-			  <h1 class="mx-auto text-white font-semibold text-lg">2</h1>
+			<div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-16 h-16 rounded-full">
+			  <h1 class="mx-auto text-white font-semibold text-lg">2018</h1>
 			</div>
 			<div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-			  <h3 class="mb-3 font-bold text-white text-xl">2017</h3>
-			  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">The first 1000 patients were registered on the platform.</p>
+			  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">The first 1000 patients were registered on the platform. The team grew to 15 members and collaborations with physicians across the country were in place.</p>
 			</div>
 		  </div>
 		  
 		  <!-- right timeline -->
 		  <div class="mb-8 flex justify-between items-center w-full">
 			<div class="order-1 w-5/12"></div>
-			<div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-			  <h1 class="mx-auto font-semibold text-lg text-white">3</h1>
+			<div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-16 h-16 rounded-full">
+			  <h1 class="mx-auto font-semibold text-lg text-white">2020</h1>
 			</div>
 			<div class="order-1 bg-gray-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-			  <h3 class="mb-3 font-bold text-gray-800 text-xl">Lorem Ipsum</h3>
-			  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			  <p class="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">Covid-19 showed that the patient-physician interaction needs to be digital in some cases. Our company grew extensively and we secured a 120 million euro investment to start internatiolization initiatives.</p>
 			</div>
 		  </div>
 	  
 		  <!-- left timeline -->
 		  <div class="mb-8 flex justify-between flex-row-reverse items-center w-full">
 			<div class="order-1 w-5/12"></div>
-			<div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-8 h-8 rounded-full">
-			  <h1 class="mx-auto text-white font-semibold text-lg">4</h1>
+			<div class="z-20 flex items-center order-1 bg-gray-800 shadow-xl w-16 h-16 rounded-full">
+			  <h1 class="mx-auto text-white font-semibold text-lg">2021</h1>
 			</div>
 			<div class="order-1 bg-red-400 rounded-lg shadow-xl w-5/12 px-6 py-4">
-			  <h3 class="mb-3 font-bold text-white text-xl">Lorem Ipsum</h3>
-			  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			  <p class="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">Currently, Healthspace is active in France, Spain, Italy and Belgium and has 200 000 patients registered on the platform.</p>
 			</div>
 		  </div>
 		</div>
@@ -136,10 +132,10 @@
 
 
 	<div class="flex items-center justify-center h-32">
-		<h1 class="text-2xl">Where to find us?</h1>
+		<h1 class="text-2xl">Visit us at our office at Station F!</h1>
 	</div>
 
-	<div class="map mx-80">
+	<div class="map mb-32 mx-80">
 		<Map {options} />
 	</div>
 </main>
