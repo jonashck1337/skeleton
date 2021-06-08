@@ -25,8 +25,9 @@
 
 			<!-- right nav elements-->
 			<div class="flex items-center text-gray-700">
+				<a href="./login" class="py-5 px-1 font-semibold hover:text-blue-500">Profile</a>
 				<a href="./login" class="py-5 px-5 font-semibold hover:text-blue-500">Login</a>
-				<a href="./signup" class="py-2 px-3 bg-purple-500 hover:bg-purple-400 text-white hover:text-white rounded transition duration-300">Signup</a>
+				<a href="./signup" class="py-2 px-4 bg-purple-500 hover:bg-purple-400 text-white hover:text-white rounded transition duration-300">Signup</a>
 			</div>
 
 		</div>

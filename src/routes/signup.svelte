@@ -13,7 +13,7 @@
     <div class="min-h-screen flex items-center justify-center bg-blue-400">
 
         <!-- login form -->
-        <div class="bg-white p-16 rounded shadow-2xl w-2/3">
+        <div class="bg-white p-16 rounded shadow-2xl w-1/3">
       
           <h2 class="text-3xl font-bold mb-10 text-gray-800">Create Your Account</h2>
       
