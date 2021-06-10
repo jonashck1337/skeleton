@@ -44,8 +44,8 @@
 <Navbar />
 
 
-
-  <h2 class=" font-bold text-2xl mt-20 mb-10 px-10">
+<div class="px-72">
+  <h2 class="font-bold text-2xl mt-20 mb-10 px-10">
     Most frequently asked questions:
   </h2>
   
@@ -94,7 +94,8 @@
       </div>
     </div>
   </div>
-  
+</div>
+
   <style>
     .card {
       border-radius: 4px;

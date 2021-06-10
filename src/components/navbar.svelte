@@ -1,5 +1,7 @@
 <script>
 	import logo from './heart.svg';
+	import Modal from "./Modal.svelte";
+	let modal;
 </script>
 
 <nav class="bg-blue-100 text-lm">
@@ -24,15 +26,36 @@
 				</div>
 			</div>
 
-			<!-- right nav elements-->
-			<div class="flex items-center text-gray-700">
-				<a href="./login" class="py-5 px-1 font-semibold hover:text-blue-500">Profile</a>
-				<a href="./login" class="py-5 px-5 font-semibold hover:text-blue-500">Login</a>
-				<a href="./signup" class="py-2 px-4 bg-purple-500 hover:bg-purple-400 text-white hover:text-white rounded transition duration-300">Signup</a>
+			  <!-- right nav elements-->
+			  <div class="flex items-center text-gray-700 z-50">
+				<button on:click={() => modal.show()} class="inline-block p-2 text-blue hover:text-blue-400 mr-2 font-bold">Login</button>
+				<Modal bind:this={modal}>
+					<div class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 flex flex-col">
+						<div class="mb-4">
+						  <label class="block text-grey-darker text-sm font-bold mb-2" for="username">
+							Username
+						  </label>
+						  <input class="shadow appearance-none border rounded w-full py-2 px-3 text-grey-darker" id="username" type="text" placeholder="Username">
+						</div>
+						<div class="mb-6">
+						  <label class="block text-grey-darker text-sm font-bold mb-2" for="password">
+							Password
+						  </label>
+						  <input class="shadow appearance-none border border-red rounded w-full py-2 px-3 text-grey-darker mb-3" id="password" type="password" placeholder="******************">
+						</div>
+						<div class="flex items-center justify-between">
+						  <button class="bg-blue-700 hover:bg-blue-dark text-white font-bold py-2 px-4 rounded" type="button">
+							Sign In
+						  </button>
+						  <a class="inline-block align-baseline font-bold text-sm text-blue hover:text-blue-darker" href="#">
+							Forgot Password?
+						  </a>
+						</div>
+					</div>
+				  <button on:click={() => modal.hide()}>Close</button>
+				</Modal>
+				<a href="/signup" class="py-2 px-3 bg-purple-500 hover:bg-purple-400 text-white hover:text-white rounded transition duration-300">Signup</a>
 			</div>
-
-		</div>
-
-		<!-- mobile menu-->
-	</div>
-</nav>
+		  </div>
+	  </div>
+  </nav>
