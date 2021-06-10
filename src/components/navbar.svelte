@@ -20,6 +20,7 @@
 				<div class="flex items-center space-x-1 text-gray-700 font-semibold">
 					<a href="./qa" class="py-5 px-3 hover:text-blue-500">Q&A</a>
 					<a href="./about" class="py-5 px-3  hover:text-blue-500">About</a>
+					<a href="/careers" class="py-5 px-3  hover:text-blue-500">Careers</a>
 				</div>
 			</div>
 
